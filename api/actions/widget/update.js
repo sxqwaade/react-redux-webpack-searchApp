@@ -13,7 +13,7 @@ export default function update(req) {
           reject({
             color: 'We do not accept green widgets' // example server-side validation error
           });
-        }
+        } 
         if (widget.id) {
           widgets[widget.id - 1] = widget;  // id is 1-based. please don't code like this in production! :-)
         }
