@@ -18,7 +18,7 @@ module.exports = Object.assign({
     title: 'react-express-webpack-searchcarAPP',
     description: '汽车搜索应用',
     head: {
-      title: 'react-express-webpack-searchcarAPP: %s',
+      title: 'react-express-webpack-searchcarAPP',
       meta: [
         { name: 'description', content: '汽车搜索应用'},
         { charset: 'utf-8'},
