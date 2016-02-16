@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import { Tabs, Tab } from 'react-bootstrap';
 // import { Link } from 'react-router';
 // import { CounterButton, GithubButton } from 'components';
-import config from '../../config';
+// import config from '../../config';
 import Helmet from 'react-helmet';
 
 export default class Home extends Component {
@@ -12,11 +13,17 @@ export default class Home extends Component {
     return (
       <div className={styles.home}>
         <Helmet title="Home"/>
-        <div>
-          <h1>{config.app.title}</h1>
-          <span>3333333333333</span>
-          <h2>{config.app.description}</h2>
-        </div>
+          <Tabs defaultActiveKey={1} className={styles.homeNav}>
+            <Tab eventKey={1} title="热门">
+              Tab 1 content
+            </Tab>
+            <Tab eventKey={2} title="品牌">
+              Tab 2 content
+            </Tab>
+            <Tab eventKey={3} title="类型">
+              Tab 3 content
+            </Tab>
+          </Tabs>
       </div>
     );
   }

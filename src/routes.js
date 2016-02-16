@@ -4,7 +4,7 @@ import { isLoaded as isAuthLoaded, load as loadAuth } from './redux/modules/auth
 import {
     App,
     Home,
-    About
+    About,
   } from './containers';
 
 export default (store) => {

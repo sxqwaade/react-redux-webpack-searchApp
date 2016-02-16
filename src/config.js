@@ -15,10 +15,10 @@ module.exports = Object.assign({
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
   app: {
-    title: 'react-express-webpack-searchcarAPP',
+    title: 'searchcarAPP',
     description: '汽车搜索应用',
     head: {
-      title: 'react-express-webpack-searchcarAPP',
+      title: 'searchcarAPP',
       meta: [
         { name: 'description', content: '汽车搜索应用'},
         { charset: 'utf-8'},
